@@ -1,0 +1,24 @@
+#LOGO{width: 8%;}
+#PartofNav 
+{
+display:flex;
+padding-top: 1.5%;
+padding-left: 1%;
+padding-bottom: 1%;
+justify-content: space-between;
+}
+
+.Navtit
+{padding-right: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: 10%;
+text-decoration: none;
+font-weight: bold;
+color: darkslategrey;}
+
+.Navtit:hover
+{color: cadetblue;}
+
+hr{
+    border-color: rgba(218, 255, 223, 0.315);
+}
