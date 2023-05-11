@@ -14,7 +14,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-style: 10%;
 text-decoration: none;
 font-weight: bold;
-color: darkslategrey;}
+color: darkslategrey;
+font-size: 15px;}
 
 .Navtit:hover
 {color: cadetblue;}
