@@ -1,12 +1,26 @@
+/* submit Review */
+#flexnameandthumbs
+{display: flex;}
 
+/* Placedescription.js  */
+#Reviewsgridbox
+{
+    display: flex;
+    justify-content: space-around;
+}
+#review1
+{margin-right: 40px;}
+#review2
+#review2
+#review4
 
-/* Code for Thumbs */
-#Uptt{
-    width: 30px;
+/* Code for Thumbsup.js */
+#likegrow{
+    width: 60px;
     margin-right: 10px;
 }
-#Downtt{
-    width: 30px;
+#dislikegrow{
+    width: 50px;
 }
 #rating {
     display: flex;

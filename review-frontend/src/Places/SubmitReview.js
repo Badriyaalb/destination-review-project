@@ -10,7 +10,9 @@ return(
     <>
     <Header/>
     <h1> Add You Review</h1>
+    <div id="flexnameandthumbs">
     <textarea id="UserNamett" placeholder="Name"></textarea> <Thumbs/> <br/>
+    </div>
     <textarea id="UserReviewtt" placeholder="Review"></textarea><br/>
     <button onclick="" id="Submitbuttonttt"> Submit</button>
     <Footer/>
