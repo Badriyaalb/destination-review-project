@@ -1,10 +1,9 @@
-#LOGO{width: 8%;}
+#LOGO{width: 130px;}
 #PartofNav 
 {
 display:flex;
 padding-top: 1.5%;
 padding-left: 1%;
-padding-bottom: 1%;
 justify-content: space-between;
 }
 
@@ -21,5 +20,12 @@ font-size: 15px;}
 {color: cadetblue;}
 
 hr{
+
     border-color: rgba(218, 255, 223, 0.315);
+}
+Nav{
+    font-size: 50px;
+}
+a{
+    margin-left: 12px;
 }
