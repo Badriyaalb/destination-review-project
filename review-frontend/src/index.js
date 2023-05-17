@@ -11,7 +11,7 @@ root.render(
     {/* <Home/> */}
     <BrowserRouter>
       <Routes>
-      <Route path='/' element={<Home/>}/>   
+      <Route path='/Home'element={<Home/>}/>   
       <Route path='/Placedescription' element={<Placedescription/>}/>  
       <Route path='/SubmitReview' element={<SubmitReview/>}/>  
 

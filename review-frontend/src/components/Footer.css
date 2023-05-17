@@ -25,10 +25,9 @@
     justify-content: center;
   }
   .logos1 {
-    margin-left: 20px;
-    font-size: 40px;
-    
-    
+  margin-left: 20px;
+  height: 30px;
+  width: auto;
   }
   #vocplantitle {
     text-align: center;

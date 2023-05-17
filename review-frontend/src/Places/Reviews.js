@@ -24,7 +24,7 @@ function Reviews(props){
         </div>
         {/* <!--Comments----------------------------------------> */}
         <div class="client-comment">
-            <p>{props.Rcomment}</p>
+            <p id="CommentDD">{props.Rcomment}</p>
         </div>
     </div>
 

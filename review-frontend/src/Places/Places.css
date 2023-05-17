@@ -1,44 +1,200 @@
+
+/* Description */
+#makeflex
+{
+  display: flex;
+}
+#PlaceAbout
+{
+  font-size: 30px;
+ padding-top: 20px;
+ margin-left: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#video
+{
+  border-style: groove;
+ border-width :3px;
+ border-radius: 20px;
+ margin-top: 30px;
+}
+#AddCommentDD
+{
+  height: 40px;
+  color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  margin-left: 1100px;
+  width: 180px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0, 0.904);
+  margin-bottom: 50px;
+
+}
+h1#reviews6666
+{
+
+  font-size: 50px;
+ padding-top: 50px;
+ margin-left: 460px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#AddCommentDD:hover{
+  color: #ffffffaf;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  
+}
+
+#destheadDD
+{
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-width: 2px;
+  border-color: rgba(255, 228, 196, 0.507);
+  border-style: groove;
+  text-align: center;
+  padding: 10px;
+  color:rgba(138, 135, 109, 0.712)
+}
+
+
 /* submit Review */
 #flexnameandthumbs
-{display: flex;
-  background-color: aquamarine;
-  
+{display: flex;}
+
+#Submitbuttonttt
+{height: 40px;
+color: beige;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+margin-left: 80px;
+width: 100px;
+border-radius: 40px;
+border-style: solid;
+border-color: dimgray;
+background-color:rgba(73, 100, 0, 0.555) ;}
+
+#Submitbuttontt:hover{
+  color: #2EBDD1;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+#feedbackimg
+{
+  margin-top: 30px;
+  width: auto;
+  height: 220px;
+  padding-left: 40px;
 }
 
 #UserNamett
 {height: 30px;
-font-size: 20px;
-margin-right: 100px;}
+width: 70%;
+font-size: 15px;
+margin-right: 100px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 #UserReviewtt
 {
-  height: 30px;
-  font-size: 20px;;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 300px;
+  width: 35%;
+  font-size: 15px;
 } 
 
-h1{
+#reviewheadtt{
+  font-size: 35px;
+  color: rgb(160, 154, 77);
+  outline-color: dimgray;
+  margin-left: 20%;
+  margin-top: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #reviewbox
-{padding-left: 200px;
+{padding-left: 25%;
+padding-right: 25%;
+
+ 
 }
 
 /* Placedescription.js  */
+#description555
+{
+  width: 600px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  
+  padding-left: 50px;
+}
 #Reviewsgridbox
 {
     display: flex;
     justify-content: space-around;
+    padding-right: px;
+}
+.name-user
+{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(59, 99, 100);
+}
+
+#CommentDD
+{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+width: 280px;
 }
 #review1
+{margin-right: 40px;
+background-color: ;}
+#review2
 {margin-right: 40px;}
 #review2
-#review2
+{margin-right: 40px;}
 #review4
+{margin-right: 40px;}
+
+
+#middlePP
+{
+  margin-left: 200px;
+}
 
 /* Code for Thumbsup.js */
 #Uptt{
-  color: blue;
+  margin-left: 20px;
+  height: 40px;
+  width: auto;
+  color: #000000;
 }
+#Uptt:hover{
+  color: rgba(8, 172, 109, 0.63);
+  transition: all .2s ease-in-out;
+  transform: scale(1.3);
+}
+#Downtt
+{
+margin-left: 20px;
+height: 40px;
+width: auto;
+margin-top: 7px;
+}
+#Downtt:hover
+{
+  color: rgba(214, 7, 7, 0.575);
+  transition: all .2s ease-in-out;
+  transform: scale(1.3);
+}
+
 #likegrow{
     font-size: 40px;
     
@@ -47,10 +203,11 @@ h1{
     width: 50px;
 }
 #rating {
+  padding-top: 10px;
+  padding-left: 50px;
     display: flex;
     width: 100%;
     text-align: center;
-    
     
   }
   
