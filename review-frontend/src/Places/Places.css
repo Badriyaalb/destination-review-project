@@ -1,6 +1,27 @@
 /* submit Review */
 #flexnameandthumbs
-{display: flex;}
+{display: flex;
+  background-color: aquamarine;
+  
+}
+
+#UserNamett
+{height: 30px;
+font-size: 20px;
+margin-right: 100px;}
+#UserReviewtt
+{
+  height: 30px;
+  font-size: 20px;;
+} 
+
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#reviewbox
+{padding-left: 200px;
+}
 
 /* Placedescription.js  */
 #Reviewsgridbox
@@ -15,9 +36,12 @@
 #review4
 
 /* Code for Thumbsup.js */
+#Uptt{
+  color: blue;
+}
 #likegrow{
-    width: 60px;
-    margin-right: 10px;
+    font-size: 40px;
+    
 }
 #dislikegrow{
     width: 50px;
@@ -25,8 +49,6 @@
 #rating {
     display: flex;
     width: 100%;
-    margin-top: 40px;
-    padding-top: 40px;
     text-align: center;
     
     
