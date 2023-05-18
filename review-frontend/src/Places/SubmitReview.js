@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Thumbs from './ThumbsUp';
 import Thumbss from "../imgs/thumbss.png";
 
+
 function SubmitReview(){
    
 return(

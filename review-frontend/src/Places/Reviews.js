@@ -8,7 +8,7 @@ function Reviews(props){
             <div class="profile">
                 {/* <!--name-and-username--> */}
                 <div class="name-user">
-                    <h3>{props.Rname}</h3>
+                    <h3>{props.Rname}</h3> <img id="RThumbsupOd" src={props.Ratting} />
                 </div>
             </div>
             {/* <!--reviews------> */}
