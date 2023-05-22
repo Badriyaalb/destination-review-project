@@ -24,7 +24,7 @@ return(
             <textarea onChange={(e)=>{setUsername(e.target.value); console.log(Username);}} id="UserNamett" placeholder="Name" required></textarea>  <Thumbs onChange={(e)=>{setUserrate(e.target.value); console.log(Userrate);}} required/> <br/>
         </div>
         <textarea onChange={(e)=>{setUserreview(e.target.value); console.log(Userreview);}} id="UserReviewtt" placeholder="Review" required></textarea><img id="feedbackimg"src={Thumbss}/><br/>
-        <button  onClick={(e)=>{e.preventDefault(); axios.post("http://localhost:1440/addReview", {username, Userreview, Userrate})}}  id="Submitbuttonttt"> Submit</button>
+        <button  onClick={(e)=>{e.preventDefault(); axios.post("http://localhost:1440/addReview", {Username, Userreview, Userrate})}}  id="Submitbuttonttt"> Submit</button>
      </section></section>
       
     <Footer/>
