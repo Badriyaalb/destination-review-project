@@ -1,5 +1,7 @@
+import './Places.css';
 
-function Reviews(props){
+function Reviews(props)
+{
     return(
         <div class="testimonial-box">
         {/* <!--top-------------------------> */}
@@ -8,7 +10,7 @@ function Reviews(props){
             <div class="profile">
                 {/* <!--name-and-username--> */}
                 <div class="name-user">
-                    <h3>{props.Rname}</h3> <img id="RThumbsupOd" src={props.Ratting} />
+                    <h3>{props.Rname}</h3> 
                 </div>
             </div>
             {/* <!--reviews------> */}
@@ -18,8 +20,7 @@ function Reviews(props){
                 <i className={props.Rate3}></i>
                 <i className={props.Rate4}></i>
                 <i className={props.Rate5}></i>    {/*<!--Empty star--> */}
-                {/* <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i> */}
+                
             </div>
         </div>
         {/* <!--Comments----------------------------------------> */}
