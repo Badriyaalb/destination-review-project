@@ -29,9 +29,9 @@ function Attractionlist(props){
                 </nav>
                 <div id="placedetails">
                     <a className="placedetails">{place.placeLocation}</a>
-                    <a className="placedetails">{place.ticketPrice}</a>
-                    <a className="placedetails">{place.workingDays}</a>
-                    <a className="placedetails">{place.averageRating}</a>
+                    <a className="placedetails2">{place.ticketPrice}</a>
+                    <a className="placedetails3">{place.workingDays}</a>
+                    <a className="placedetails5">{place.averageRating}</a>
 
                 </div>
             </section>
