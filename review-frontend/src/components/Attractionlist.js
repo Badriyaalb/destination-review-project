@@ -1,12 +1,26 @@
 import './Attractionlist.css';
+import axios from "axios";
+import { useEffect, useState } from 'react';
 
 function Attractionlist(props){
+    const [allplaces, setallplaces]=useState();
+    useEffect(()=>{ 
+
+        axios.get("http://localhost:1440/getplaces").then((res)=>{setallplaces(res.data)},[]);
+    }
+    
+    
+    )
+
     return(
-        
-        <div id="placelistdiv">
-            <img src={props.placeimg} id="placeimg"/>
+
+        <>
+        {
+            allplaces && allplaces.map((place)=>(
+                <div id="placelistdiv">
+            <img src={place.placeImage} id="placeimg"/>
             <section>
-                <h1 id="placename">{props.placename}</h1>
+                <h1 id="placename">{place.placeName}</h1>
                 <nav id="placeheadings">
                     <a className="placeheadings">Location</a>
                     <a className="placeheadings">Ticket(AED)</a>
@@ -14,14 +28,21 @@ function Attractionlist(props){
                     <a className="placeheadings">Rating</a>
                 </nav>
                 <div id="placedetails">
-                    <a className="placedetails">{props.location}</a>
-                    <a className="placedetails">{props.ticket}</a>
-                    <a className="placedetails">{props.day}</a>
-                    <a className="placedetails">{props.rating}</a>
+                    <a className="placedetails">{place.placeLocation}</a>
+                    <a className="placedetails2">{place.ticketPrice}</a>
+                    <a className="placedetails3">{place.workingDays}</a>
+                    <a className="placedetails5">{place.averageRating}</a>
 
                 </div>
             </section>
         </div>
+            ))
+        }
+        </>
+        
+        
+
+       
 
     )
 }
