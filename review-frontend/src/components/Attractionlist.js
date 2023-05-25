@@ -6,11 +6,11 @@ function Attractionlist(props){
     const [allplaces, setallplaces]=useState();
     useEffect(()=>{ 
 
-        axios.get("http://localhost:1440/getplaces").then((res)=>{setallplaces(res.data)},[]);
-    }
+        axios.get("http://localhost:1440/getplaces").then((res)=>{setallplaces(res.data)});
+    },[]);
     
     
-    )
+    
 
     return(
 
